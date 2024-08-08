@@ -19,7 +19,7 @@ function Homepage() {
           <div className="relative h-64 w-64 mx-auto md:mx-0   items-center overflow-hidden rounded-full  md:w-[330px] lg:mt-5   lg:order-last lg:h-[75%]">
             <img
               alt="myprofile"
-              // src="https://avatars.githubusercontent.com/u/155292217?s=400&u=dbee3321af6b149a123e91de55916622a1f9cb02&v=4"
+              
               src={profile}
               className="absolute md:h-[361px]  w-full object-cover"
             />

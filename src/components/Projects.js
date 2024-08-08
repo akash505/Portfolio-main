@@ -1,7 +1,7 @@
 import React from "react";
 import { FaArrowUpRightFromSquare, FaGithub } from "react-icons/fa6";
 import { Link } from "react-router-dom";
-import project1 from "../assets/priject1.png";
+import project1 from "../assets/bankmanagement.png";
 import project2 from "../assets/news_api.png";
 import project3 from "../assets/blockchain.png";
 
@@ -10,10 +10,10 @@ function Projects() {
   const projectList = [
     {
       
-      title: "All In One(E-Commerce)",
-      dec: "This app is a E-commerce responcive website for fashion and lifestyle products with various category.",
-      tools: "HTML, CSS, JavaScript, React, Redux, axios, Bootstrap UI.",
-      github_code: "#",
+      title: "Bank Management System",
+      dec: " Engineered and deployed a user authentication system with email support for password resets and inquiries.Architected a database for real-time transaction history retrieval and storage, ensuring a seamless user experience and data accessibility.",
+      tools: "Java,Swing,MySQL",
+      github_code: "https://github.com/akash505/bank",
       diploy_link: "#",
       image: project1,
     },
